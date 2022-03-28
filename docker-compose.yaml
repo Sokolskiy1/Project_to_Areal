@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+    proj:
+       image: docker_image
+       container_name: Project  
+       ports:
+         - "8080:80"           
+    
+       
